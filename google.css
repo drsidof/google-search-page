@@ -1,0 +1,102 @@
+/*google model*/
+
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    body{
+        font-family:Helvetica,arial;
+        font-size:13px;
+    }
+    h1#logo{
+    
+        width:269px;
+        height:95px;
+        background: url("google.gif") top left no-repeat;
+        background-size:100%;
+    text-indent:-9999px;
+    margin:20px auto;
+    
+    }
+    
+    #container{
+        text-align:center;
+        margin:0 auto;
+        width:580px;
+    
+    }
+    
+    input[type="search"]
+    {
+    width: 580px;
+    height:30px;
+    margin-top:10px;
+    border:1px solid grey;
+    
+    
+    }
+    
+    input[type="submit"]
+    
+    {
+        margin-top:20px;
+    padding:5px;
+    background:#eee;	
+    font-size:10px;
+    font-weight:bold;
+    }
+     nav#header ul li {
+        display:inline;
+        
+    }
+    
+    nav#header{
+        text-align:right;
+        padding:20px;
+        font-family:arial;
+        }
+    nav#header ul li a {
+        padding:10px;
+        text-decoration:none;
+        color:black;
+        font-family:arial;
+        font-size:11px;
+    }
+    
+    footer{
+        
+        padding:10px;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        background:#eee;
+    }
+    
+    #footer1{
+        float:left;
+    }
+    
+    #footer2{
+        float:right;
+    }
+    
+    footer nav ul li{
+        display:inline;
+        
+    }
+    footer nav ul li a{
+        text-decoration:none;
+        color:black;
+    padding-right:10px;
+    padding-top:0px;
+    padding-bottom:10px;
+    font-size:10px;
+        }
+
+       .body-nav ul li
+        {
+display:inline-block;
+margin:10px;
+
+        }
